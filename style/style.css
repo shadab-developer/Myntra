@@ -7,8 +7,9 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .header {
+  padding: 12px 12px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.075);
-  height: 80px;
+  height: 100%;
 }
 .row {
   align-items: center;
@@ -23,16 +24,7 @@ body {
 .item {
   text-transform: uppercase;
 }
-.input {
-  width: 480px;
-  height: 40px;
-  font-weight: 400;
-  font-size: 12px;
-  border: 0.1mm solid rgba(125, 121, 121, 0.653);
-  border-radius: 5px;
-  padding: 5px;
-  background-color: rgb(245, 245, 245);
-}
+
 .input:hover,
 .input:active {
   background-color: white;
