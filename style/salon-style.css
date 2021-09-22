@@ -16,3 +16,16 @@
 .banner img {
   width: 100vw;
 }
+.content {
+  padding: 10px 20px 0px 20px;
+}
+.services .col {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.services img {
+  width: 150px;
+}
